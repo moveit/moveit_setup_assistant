@@ -461,7 +461,7 @@ bool ConfigurationFilesWidget::checkDependencies()
   if( dependencies.size() )
   {
     // Create a dependency message
-    QString dep_message = "Some setup steps have not been completed. None of the steps are required, but here is a reminder of what was not filled in, just in case something was forgotten::<br /><ul>";
+    QString dep_message = "Some setup steps have not been completed. None of the steps are required, but here is a reminder of what was not filled in, just in case something was forgotten:<br /><ul>";
 
     for (int i = 0; i < dependencies.size(); ++i)
     {
@@ -634,8 +634,8 @@ void ConfigurationFilesWidget::showGenFiles()
       item->setFlags(Qt::ItemIsSelectable | Qt::ItemIsEnabled);
     }
 
-    // Link the gen_files_ index to this item
-    item->setData(Qt::UserRole, QVariant(i));
+    // Link the gen_files index to this item
+    item->setData(Qt::UserRole, QVariant(int(i)));
 
 
     // Add actions to list
