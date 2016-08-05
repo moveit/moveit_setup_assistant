@@ -1,6 +1,7 @@
-MoveIt Setup Assistant
-================
+# This Repository Has Moved
 
-## Build Status
+The new location as of August 5th, 2016 is [https://github.com/ros-planning/moveit](https://github.com/ros-planning/moveit)
 
-[![Build Status](https://travis-ci.org/ros-planning/moveit_setup_assistant.png?branch=hydro-devel)](https://travis-ci.org/ros-planning/moveit_setup_assistant)
+See [migration notes](https://github.com/davetcoleman/moveit_merge/blob/master/README.md) for more details.
+
+Please do not open new pull requests or issues in this old location.
